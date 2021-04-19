@@ -25,7 +25,7 @@ func main()  {
 		}
 		numbers = append(numbers, number)
 	}
-	fmt.Println("Average value is %.2f", average(numbers ...))
+	fmt.Printf("Average value is %0.2f", average(numbers ...))
 
 
 }
